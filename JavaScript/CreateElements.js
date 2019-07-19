@@ -74,9 +74,9 @@ function createPopupSection(contentSection){
     popupSection.appendChild(popupTextContent);
 }
 function createOptions(dataLength){
-    createOption('All Channels', 0);
+    createOption('All News', 0);
     for (let i = 1; i <= dataLength; i++) {
-        createOption('Channel - ' + [i], i);
+        createOption('News - ' + [i], i);
     }
 }
 function createOption(text, value){
@@ -93,7 +93,7 @@ function createContentSection(mainWrapper, data){
 
     for (let i = 0; i < data.length; i++) {
         const section = document.createElement('div');
-        section.id = 'tittle' + i;
+        section.id = 'title' + (i+1);
         section.className = 'section';
         if (i != 0) {
             section.className = 'section line';
@@ -137,7 +137,7 @@ function createContentSection(mainWrapper, data){
         continuereading.className = 'continue-reading';
         continuereading.textContent = 'Continue Reading';
         continuereading.value = i;
-        continuereading.onclick = function () { openPopUp(this.value) };
+        continuereading.onclick = function () { openPopUp(this.value, data[i].description) };
         contentdiv.appendChild(continuereading);
     }
     return contentSection;
@@ -156,7 +156,7 @@ function createCategorySection(mainWrapper, data){
     const select = createNode('select');
     select.setAttribute("id", "selectCategory");
     select.className = 'select-category';
-    select.onchange = function () { openCategory() };
+    select.onchange = function () { openCategory(data.length) };
     categorySubscribe.appendChild(select);
     
     //Create Category Option drop down
