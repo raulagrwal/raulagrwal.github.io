@@ -1,0 +1,76 @@
+{
+	"status": "ok",
+	"source": "CNBC",
+	"sortBy": "top",
+	"articles": [{
+		"author": "Fred Imbert",
+		"title": "Warren Buffett: If a bank needs a government bailout, the CEO and spouse should lose 'net worth'",
+		"description": "Berkshire Hathaway Chairman and CEO Warren Buffett thinks CEOs of failing banks with literally everything they're worth.",
+		"url": "https://www.cnbc.com/2019/05/04/warren-buffett-if-a-bank-needs-a-government-bailout-the-ceo-and-spouse-should-lose-net-worth.html",
+		"urlToImage": "https://image.cnbcfm.com/api/v1/image/105758389-15511059379711u8a9359.jpg?v=1551106029",
+		"publishedAt": "2019-05-04T15:38:16Z"
+	}, {
+		"author": "Fred Imbert",
+		"title": "Buffett hints at possible successors, but 88-year-old CEO largely avoids the issue again",
+		"description": "Buffett says that longtime executives Greg Abel and Ajit Jain could one day join him and Vice Chairman Charlie Munger on stage and answer questions from shareholders.",
+		"url": "https://www.cnbc.com/2019/05/04/buffett-hints-again-at-who-his-successor-is-but-largely-avoids-issue.html",
+		"urlToImage": "https://image.cnbcfm.com/api/v1/image/105892686-1556987757858rtx6u8ll.jpg?v=1556988035",
+		"publishedAt": "2019-05-04T17:20:56Z"
+	}, {
+		"author": "Yun Li",
+		"title": "Warren Buffett says Berkshire's purchase of high-flying Amazon was still 'value investing'",
+		"description": "Berkshire Hathaway's Amazon bet seems to stray from Warren Buffett's value investing style, but the Oracle of Omaha said the e-commence giant is exactly a value company.",
+		"url": "https://www.cnbc.com/2019/05/04/warren-buffett-says-berkshires-purchase-of-high-flying-amazon-was-still-value-investing.html",
+		"urlToImage": "https://image.cnbcfm.com/api/v1/image/105891940-1556912146945gettyimages-1140932026.jpeg?v=1556912187",
+		"publishedAt": "2019-05-04T16:31:19Z"
+	}, {
+		"author": "Yun Li",
+		"title": "Warren Buffett says auditor hasn't approved Kraft Heinz's financials: 'There's something going on'",
+		"description": "Warren Buffett said Kraft Heinz is in dispute with its auditor, so Berkshire Hathaway hasn't gotten the food company's financials.",
+		"url": "https://www.cnbc.com/2019/05/04/buffett-says-kraft-has-disagreement-with-auditor.html",
+		"urlToImage": "https://image.cnbcfm.com/api/v1/image/105891931-1556912071303gettyimages-1140938017.jpeg?v=1556912105",
+		"publishedAt": "2019-05-04T13:26:00Z"
+	}, {
+		"author": "Lauren Hirsch",
+		"title": "Executive turnover at Kraft Heinz continues as chief marketing officer departs",
+		"description": "Kraft Heinz announced last month its long-time CEO Bernardo Hees is stepping down on June 30 and will be replaced by former Ab InBev CMO, Miguel Patricio.",
+		"url": "https://www.cnbc.com/2019/05/04/kraft-heinz-chief-marketing-officer-departs.html",
+		"urlToImage": "https://image.cnbcfm.com/api/v1/image/103849102-GettyImages-467499764.jpg?v=1552512191",
+		"publishedAt": "2019-05-04T16:57:22Z"
+	}, {
+		"author": "Yun Li",
+		"title": "Warren Buffett explains why he's making a bet in the energy industry",
+		"description": "Warren Buffett has shown a bigger interest in the oil industry with his recent $10 billion investment to back Occidental's bid for Anadarko, and he said it's a bet on the Permian Basin.",
+		"url": "https://www.cnbc.com/2019/05/04/warren-buffett-explains-why-hes-making-a-bet-in-the-energy-industry.html",
+		"urlToImage": "https://image.cnbcfm.com/api/v1/image/105891940-1556912146945gettyimages-1140932026.jpeg?v=1556912187",
+		"publishedAt": "2019-05-04T13:10:40Z"
+	}, {
+		"author": "Spencer Kimball",
+		"title": "Trump says Kim Jong Un 'does not want to break his promise' despite North Korea's latest launches",
+		"description": null,
+		"url": "https://www.cnbc.com/2019/05/04/trump-says-kim-jong-un-does-not-want-to-break-his-promise-despite-north-koreas-latest-launches.html",
+		"urlToImage": "https://image.cnbcfm.com/api/v1/image/105765718-1551323105787gettyimages-1127987892.jpeg?v=1553958758",
+		"publishedAt": "2019-05-04T14:15:01Z"
+	}, {
+		"author": "Stephanie Landsman",
+		"title": "Wall Street is dangerously overestimating Fed rate cut odds, investor who oversees $135 billion in bonds warns",
+		"description": "Melon Active Fixed Income CIO David Leduc believes investors should avoid long-duration bonds to avert potential losses.",
+		"url": "https://www.cnbc.com/2019/05/03/wall-street-is-overestimating-fed-rate-cut-odds-bond-investor-warns.html",
+		"urlToImage": "https://image.cnbcfm.com/api/v1/image/105802039-1553007636265rts2dtjq.jpg?v=1553007711",
+		"publishedAt": "2019-05-04T14:00:45Z"
+	}, {
+		"author": "Todd Haselton",
+		"title": "Here are two cool iPhone camera tricks you're probably not even using",
+		"description": "Use burst mode and camera effects to bring life to iPhone pictures and make your photos a lot more fun.",
+		"url": "https://www.cnbc.com/2019/05/03/iphone-camera-tips-and-tricks.html",
+		"urlToImage": "https://image.cnbcfm.com/api/v1/image/105888456-1556809540183img_0430.gif?v=1556809661",
+		"publishedAt": "2019-05-04T15:00:55Z"
+	}, {
+		"author": "Tom DiChristopher",
+		"title": "Trump retweets conspiracy theorists, far-right figures after Facebook bans",
+		"description": "President Donald Trump promoted tweets from controversial figures after Facebook banned several far-right figures for pushing violence and hate.",
+		"url": "https://www.cnbc.com/2019/05/04/trump-retweets-conspiracy-theorists-far-right-figures-after-facebook-bans.html",
+		"urlToImage": "https://image.cnbcfm.com/api/v1/image/105875000-1556287263344rtx6ta2q.jpg?v=1556287304",
+		"publishedAt": "2019-05-04T17:50:10Z"
+	}]
+}

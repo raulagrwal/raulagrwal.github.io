@@ -1,0 +1,76 @@
+{
+	"status": "ok",
+	"source": "CNN",
+	"sortBy": "top",
+	"articles": [{
+		"author": "Geneva Sands, Priscilla Alvarez and Kylie Atwood, CNN",
+		"title": "Trump administration weighs allowing no refugees into US next year",
+		"description": "The Trump administration floated the possibility of admitting zero refugees next year during a recent meeting with officials from the Department of Homeland Security, State Department, the Pentagon and other agencies, according to sources familiar with the meeting.",
+		"url": "http://us.cnn.com/2019/07/19/politics/trump-admin-zero-refugees/index.html",
+		"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181029115912-hias-refugee-agency-102918-super-tease.jpg",
+		"publishedAt": "2019-07-19T16:18:51Z"
+	}, {
+		"author": "Priscilla Alvarez, CNN",
+		"title": "Trump admin dramatically limits asylum claims by Central Americans",
+		"description": "The Trump administration on Monday moved to dramatically limit the ability of Central American migrants to claim asylum if they enter the United States by land through Mexico",
+		"url": "http://us.cnn.com/2019/07/15/politics/trump-administration-end-asylum-protections-central-america/index.html",
+		"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190710200840-ed-lavandera-pkg-super-tease.jpg",
+		"publishedAt": "2019-07-15T20:54:43Z"
+	}, {
+		"author": "Kumi Naidoo",
+		"title": "Showing compassion to refugees shouldn't be a crime",
+		"description": "Kumi Naidoo of Amnesty International writes that the emerging tactic of governments targeting individuals who have shown compassion to refugees not only goes against values of kindness, it represents a worrying new low in the crackdown on the rights of people on the move.",
+		"url": "http://us.cnn.com/2019/06/20/opinions/world-refugee-day-stop-criminalizing-humantarian-workers-naidoo/index.html",
+		"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190531164057-04-scott-warren-no-more-deaths-super-tease.jpg",
+		"publishedAt": "2019-06-20T10:18:48Z"
+	}, {
+		"author": "Rob Picheta, CNN",
+		"title": "One in every 108 people has been displaced, says UN Refugee Agency",
+		"description": "More than 70 million people have been forced to flee their homes due to violence or persecution, the United Nations has said, as the global migrant crisis pushed the number of refugees and displaced people to an all-time high.",
+		"url": "http://us.cnn.com/2019/06/19/world/un-refugee-report-2018-intl/index.html",
+		"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190614212708-migrantes-caravana-frontera-andres-ramirez-estados-unidos-trump-ebrard-comar-perspectivas-mexico-00022723-super-tease.jpg",
+		"publishedAt": "2019-06-19T13:26:17Z"
+	}, {
+		"author": null,
+		"title": "Refugee: I want to tell Trump how bad Syria is - CNN Video",
+		"description": "Syrian refugee Kassem Eid tells CNN's Ana Cabrera he wants to buy President Donald Trump a beer and tell him \"how bad it is in Syria.\"",
+		"url": "http://us.cnn.com/videos/politics/2018/04/14/syrian-refugee-eid-buy-trump-beer-sot-nr.cnn",
+		"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/180414195842-ana-cabrera-kassem-eid-nr-4-14-18-super-tease.jpg",
+		"publishedAt": null
+	}, {
+		"author": "Priscilla Alvarez, CNN",
+		"title": "Roughly 8,700 unaccompanied children turned over to refugee office last month",
+		"description": "Roughly 8,700 unaccompanied children were turned over to the federal Office of Refugee Resettlement last month, more than double the number of children compared to the previous April, a senior agency official said, as the swell of migrants at the US-Mexico border continues to strain federal resources.",
+		"url": "http://us.cnn.com/2019/05/03/politics/unaccompanied-children-office-of-refugee-resettlement/index.html",
+		"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190123141225-01-immigration-rally-file-super-tease.jpg",
+		"publishedAt": "2019-05-03T21:54:36Z"
+	}, {
+		"author": "Scott Jennings",
+		"title": "The Squad is a gift to Trump",
+		"description": "I don't want to send Rep. Ilhan Omar back; I want to send her to the nearest television green room, writes Scott Jennings. I think she and the Squad ought to speak as freely and in front of a camera as often as possible. Every time they do they continue to become the face of the national Democratic Party",
+		"url": "http://us.cnn.com/2019/07/19/opinions/squad-is-a-gift-to-trump-jennings/index.html",
+		"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190716101630-10-congresswomen-press-conference-0715-super-tease.jpg",
+		"publishedAt": "2019-07-19T15:38:23Z"
+	}, {
+		"author": "Michael Warren, CNN",
+		"title": "Cory Booker's college football struggles echo in his presidential campaign",
+		"description": "In the winter after the 1986 football season, legendary Notre Dame coach Lou Holtz flew to New Jersey on a private jet to interview a promising recruit from Bergen County: a 6'4\", 220-pound star player named Cory Booker.",
+		"url": "http://us.cnn.com/2019/07/19/politics/cory-booker-football/index.html",
+		"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190717132551-04-cory-booker-football-stanford-0717-restricted-super-tease.jpg",
+		"publishedAt": "2019-07-19T14:37:47Z"
+	}, {
+		"author": "Michelle Lou, CNN",
+		"title": "A restaurant in the North Carolina city where Trump held his rally is donating to aid immigrants",
+		"description": "While a crowd chanted \"Send her back!\" about a Somali-born congresswoman at President Donald Trump's rally Wednesday, a restaurant down the street was calculating its sales for the night to donate to an immigrant aid group.",
+		"url": "http://us.cnn.com/2019/07/19/us/scullery-restaurant-nc-trump-donation-immigration-trnd/index.html",
+		"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190719133002-scullery-greenville-nc-super-tease.jpg",
+		"publishedAt": "2019-07-19T17:51:57Z"
+	}, {
+		"author": "MJ Lee, CNN Political Correspondent",
+		"title": "Donald Trump's accusers: 'The forgotten' women of the #MeToo movement",
+		"description": "Each woman remembers without a shadow of a doubt exactly what they were wearing the moment they say Donald Trump assaulted them.",
+		"url": "http://us.cnn.com/2019/07/19/politics/donald-trump-accusers-me-too-movement/index.html",
+		"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190719115333-20190719-metoo-trump-accusers-super-tease.jpg",
+		"publishedAt": "2019-07-19T16:02:03Z"
+	}]
+}
