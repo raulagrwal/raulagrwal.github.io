@@ -21,6 +21,7 @@ function createHeader(mainWrapper){
     const headerSubTitle = createNode('h6');
     headerSubTitle.textContent = ' Yet another newsfeed';
     headerPara.appendChild(headerSubTitle);
+    createSubscribe(header);
     mainWrapper.appendChild(header);
 }
 function createFooter(mainWrapper){
@@ -162,10 +163,15 @@ function createCategorySection(mainWrapper, data){
     //Create Category Option drop down
     createOptions(data.length);
 
-    const subscribeSection = createNode('div');
-    subscribeSection.className = 'subscribe-text';
-    subscribeSection.textContent = 'SUBSCRIBE';
-    categorySubscribe.appendChild(subscribeSection);
+    
+    //createSubscribe(categorySubscribe);
+}
+
+function createSubscribe(categorySubscribe){
+    // const subscribeSection = createNode('div');
+    // subscribeSection.className = 'subscribe-text';
+    // subscribeSection.textContent = 'SUBSCRIBE';
+    // categorySubscribe.appendChild(subscribeSection);
 
     const emailSection = createNode('div');
     emailSection.className = 'email';

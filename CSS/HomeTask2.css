@@ -5,22 +5,34 @@
 .section {
     clear: left;
 }
-
 .header {
     padding-left: 10px;
     background-color: #273852;
     height: 55px;
     font-family: Arial;
     font-size: 15px;
+    overflow: inherit;
 }
 .header p {
-    padding-top: 15px;    
+    padding-top: 15px;   
 }
 .header h2, h6 {
     display: inline;
     color: #fff;;
 }
 
+.email {
+    float: right;
+    margin-top: -40px;
+    padding-right: 15px;
+}
+.subscribe {
+    background-color: #000;
+    color: white;
+    padding: 3px;
+    border: 0px;
+    cursor: pointer;
+}
 .channel-name {
     font-weight: bold;
     color: #233954;
@@ -111,14 +123,6 @@
     border: 10px thick !important;
     height: 26px;
 }
-
-.email {
-    width: 500px !important;
-    padding-top: 5px;
-    font-weight: bold;
-    padding-bottom: 10px;
-}
-
 .category-text {
     border: 10px thick !important;
     height: 19px;
@@ -127,15 +131,6 @@
     font-family: arial;
     padding-bottom: 7px;
 }
-
-.subscribe {
-    background-color: #233954;
-    color: white;
-    padding: 3px;
-    border: 0px;
-    cursor: pointer;
-}
-
 .popup {
     display: none;
     position: fixed !important;
