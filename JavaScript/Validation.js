@@ -29,8 +29,8 @@ function validateDescription(description) {
     if (description === null) {
         return 'No description available...';
     }
-    if (description.length > 275) {
-        return description.slice(0, 275) + '....';
+    if (description.length > 240) {
+        return description.slice(0, 240) + '....';
     }
     return description;
 }
