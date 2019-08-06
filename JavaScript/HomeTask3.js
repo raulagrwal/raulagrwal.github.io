@@ -18,4 +18,4 @@ createCategorySection(mainWrapper, data);
 
 //Footer section
 createFooter(mainWrapper);
-};s
+};
