@@ -1,4 +1,4 @@
-function validateEmail() {
+const validateEmail = () => {
     const inputText = document.getElementById("email").value;
     const regEx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     if (inputText.match(regEx)) {
@@ -12,20 +12,20 @@ function validateEmail() {
     else {
         alert("Invalid email address.");
     }
-}
-function validatePostedDate(date) {
+};
+const validatePostedDate = date => {
     if (date != null) {
         return date.slice(0, 10);
     }
     return 'No date available';
-}
-function validateAuthor(author) {
+};
+const validateAuthor = author => {
     if (author != null) {
         return author;
     }
     return 'No info available';
-}
-function validateDescription(description) {
+};
+const validateDescription = description => {
     if (description === null) {
         return 'No description available...';
     }
@@ -33,4 +33,4 @@ function validateDescription(description) {
         return description.slice(0, 240) + '....';
     }
     return description;
-}
+};

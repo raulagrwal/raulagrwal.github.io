@@ -1,10 +1,10 @@
-function createNode(element) {
+const createNode = element => {
     return document.createElement(element); // Create the type of element you pass in the parameters
-}
-function createSelectTextNode(text){
+};
+const createSelectTextNode = text => {
     return document.createTextNode(text); //Add text to the select type element
-}
-function createHeader(mainWrapper){
+};
+const createHeader = mainWrapper => {
     //Header tag and element formation
     const header = createNode('div');
     header.className = 'header';
@@ -23,8 +23,8 @@ function createHeader(mainWrapper){
     headerPara.appendChild(headerSubTitle);
     createSubscribe(header);
     mainWrapper.appendChild(header);
-}
-function createFooter(mainWrapper){
+};
+const createFooter = mainWrapper => {
     const footer = createNode('div');
     document.body.appendChild(footer);
 
@@ -36,8 +36,8 @@ function createFooter(mainWrapper){
     footerText.innerHTML = '&copy; NewsFeed 2019';
     footerPara.appendChild(footerText);
     mainWrapper.appendChild(footer);
-}
-function createPopupSection(contentSection){
+};
+const createPopupSection = contentSection => {
     const popup = createNode('div');
     popup.id = 'popupSection';
     popup.className = 'popup';
@@ -73,28 +73,28 @@ function createPopupSection(contentSection){
     popupTextContent.id = 'popupTextContent';
     popupTextContent.className = 'content';
     popupSection.appendChild(popupTextContent);
-}
-function createOptions(dataLength){
+};
+const createOptions = dataLength => {
     createOption('All News', 0);
     for (let i = 1; i <= dataLength; i++) {
         createOption('News - ' + [i], i);
     }
-}
-function createOption(text, value){
+};
+const createOption = (text, value) => {
     let option = createNode("option");
     option.setAttribute("value", value);
     let categoryText = createSelectTextNode(text);
     option.appendChild(categoryText);
     document.getElementById("selectCategory").appendChild(option);
-}
-function createContentSection(mainWrapper, data){
+};
+const createContentSection = (mainWrapper, data) => {
     const contentSection = createNode('div');
     contentSection.className = 'content-section';
     mainWrapper.appendChild(contentSection);
 
     for (let i = 0; i < data.length; i++) {
         const section = document.createElement('div');
-        section.id = 'title' + (i+1);
+        section.id = 'title' + (i + 1);
         section.className = 'section';
         if (i != 0) {
             section.className = 'section line';
@@ -124,6 +124,7 @@ function createContentSection(mainWrapper, data){
         category.className = 'category';
         category.id = 'postedCategory' + i;
         const postedDate = validatePostedDate(data[i].publishedAt);
+        //const postedDate = (postedDate) => {if (postedDate!=null){return postedDate.slice(0,10)};
         const author = validateAuthor(data[i].author);
         category.textContent = 'Posted on: ' + postedDate + ' // Author: ' + author;
         contentdiv.appendChild(category);
@@ -142,9 +143,8 @@ function createContentSection(mainWrapper, data){
         contentdiv.appendChild(continuereading);
     }
     return contentSection;
-}
-function createCategorySection(mainWrapper, data){
-
+};
+const createCategorySection = (mainWrapper, data) => {
     const categorySubscribe = createNode('div');
     categorySubscribe.className = 'category-subscribe';
     mainWrapper.appendChild(categorySubscribe);
@@ -159,20 +159,11 @@ function createCategorySection(mainWrapper, data){
     select.className = 'select-category';
     select.onchange = function () { openCategory(data.length) };
     categorySubscribe.appendChild(select);
-    
+
     //Create Category Option drop down
     createOptions(data.length);
-
-    
-    //createSubscribe(categorySubscribe);
-}
-
-function createSubscribe(categorySubscribe){
-    // const subscribeSection = createNode('div');
-    // subscribeSection.className = 'subscribe-text';
-    // subscribeSection.textContent = 'SUBSCRIBE';
-    // categorySubscribe.appendChild(subscribeSection);
-
+};
+const createSubscribe = categorySubscribe => {
     const emailSection = createNode('div');
     emailSection.className = 'email';
     categorySubscribe.appendChild(emailSection);
@@ -191,4 +182,4 @@ function createSubscribe(categorySubscribe){
     subscribe.textContent = 'Subscribe';
     subscribe.onclick = function () { validateEmail() };
     emailSection.appendChild(subscribe);
-}
+};

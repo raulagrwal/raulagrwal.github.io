@@ -1,4 +1,4 @@
-function openCategory(dataLength) {
+const openCategory = dataLength => {
     const value = document.getElementById("selectCategory").value;
     if (value == 0) {
         showAllCategory(dataLength);
@@ -15,8 +15,8 @@ function openCategory(dataLength) {
             }
         }
     }
-}
-function showAllCategory(dataLength) {
+};
+const showAllCategory = dataLength => {
     for (let i = 1; i <= dataLength; i++) {
         const tittle = document.getElementById("title" + i);
         tittle.style.display = "block";
@@ -26,15 +26,15 @@ function showAllCategory(dataLength) {
             tittle.className = 'section line';
         }
     }
-}
-function openPopUp(value, description) {
+};
+const openPopUp = (value, description) => {
     document.getElementById("popupTextContent").innerHTML = description;
     document.getElementById("popupTitle").innerHTML = document.getElementById("newsName" + value).innerHTML;
     document.getElementById("popupCategory").innerHTML = document.getElementById("postedCategory" + value).innerHTML;
     const popup = document.getElementById("popupSection");
     popup.style.display = "block";
-}
-function closePopUp() {
+};
+const closePopUp = () => {
     const popup = document.getElementById("popupSection");
     popup.style.display = "none";
-}
+};
